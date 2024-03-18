@@ -61,14 +61,14 @@ function render() {
   }
 
   const averagePrice = totalPrices / freelancers.length;
-  averagePriceDisplay.textContent = `The average starting price is: $${averagePrice.toFixed(
-    2
-  )}`;
+  averagePriceDisplay.textContent = `The average starting price is: $${averagePrice.toFixed(2)}`; 
+                                    //toFixed(2) is the number of digits to appear after the decimal point
 }
 
 // Function to calculate average starting price
 function calculateAveragePrice() {
   let totalPrices = 0;
+  
   for (const freelancer of freelancers) {
     totalPrices += freelancer.price;
   }
@@ -82,7 +82,7 @@ function generateRandomFreelancer() {
 
   const randomOccupation =
     possibleOccupations[Math.floor(Math.random() * possibleOccupations.length)];
-    
+
   const randomPrice = Math.floor(Math.random() * 100) + 30; // Random price between 30 and 100
 
   return {
