@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee; 
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; 
+    background-color: #a8aab0; 
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  h1 {
+    margin-bottom: 20px; /* space below the heading */
+  }
+  
+  #freelancer-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px; /*  space above the list */
+    display: inline-block; /* Display inline to create box around freelancers */
+    border: 2px solid #ccc;
+    border-radius: 5px; /* rounded corners */
+    padding: 10px;
+  }
+  
+  .freelancer {
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Display inline */
+    padding: 10px; /* Add padding */
+  }
+  
+  #average-price {
+    margin-bottom: 20px; /* space below the average price */
+    font-weight: bold;
+    display: inline-block; /* Display inline to create box around average price */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #e1ebf7; 
+  }
+  
